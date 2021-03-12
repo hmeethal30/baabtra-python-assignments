@@ -6,5 +6,5 @@ def MyHtml(request):
     return render(request, 'myhtml.html')
 
 def HtmlAssignment1(request):
-# return render(request, 'assignment1.html')
-return render(request, 'assignment1.html')
+    # return render(request, 'assignment1.html')    
+    return render(request, 'htmlassignment1.html')
