@@ -8,3 +8,6 @@ def MyHtml(request):
 def HtmlAssignment1(request):
     # return render(request, 'assignment1.html')    
     return render(request, 'htmlassignment1.html')
+
+def HtmlAssignment2(request):
+    return render(request,'htmlassignment2.html')
