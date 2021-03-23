@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment1:Page with Div</title>
+    <style>
+        *{
+            margin: 5px;;
+        }
+
+        /* wrapper for whole content */
+        .wrap {
+            width:1200px;  
+        	margin:auto; 
+            background-color: white;
+            border: solid;
+            padding: 10px;
+            }
+            
+        .header{
+            height: 150px;
+            background-color: green;
+            border: black;
+            border: solid;
+
+        }
+
+        /* <!-- Container section to include nav and content part --> */
+        .container{
+            background-color:white;
+        }
+
+        /* left container */
+        .nav{
+            width: 200px;
+            height: 400px;
+            float: left;
+            background-color: blue;
+            border: black;
+            border: solid;
+      
+        }
+
+        /* right container */
+        .content{
+            width: 965px;
+            height: 400px;
+            float: left;
+            background-color: orange;
+            border: black;
+            border: solid;
+
+        }
+
+        .clear{
+            clear: both;
+        }
+
+        .footer{
+            height: 80px;
+            background-color: red;
+            border: black;
+            border: solid;
+             }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header"></div>
+        
+        <!-- Container section to include nav and content part -->
+        <div class="container">
+            <div class="nav"></div>
+            <div class="content"></div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="footer"></div>
+    </div>
+    
+</body>
+</html>
