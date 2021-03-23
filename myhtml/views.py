@@ -11,3 +11,6 @@ def HtmlAssignment1(request):
 
 def HtmlAssignment2(request):
     return render(request,'htmlassignment2.html')
+
+def HtmlAssignment3(request):
+    return render(request,'htmlassignment3.html')
