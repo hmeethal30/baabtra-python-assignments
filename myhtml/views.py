@@ -14,6 +14,3 @@ def HtmlAssignment2(request):
 
 def HtmlAssignment3(request):
     return render(request,'htmlassignment3.html')
-
-def CssAssignment1(request):
-    return render(request,'cssassignment1.html')
